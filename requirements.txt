@@ -1,9 +1,0 @@
-streamlit
-easyocr
-opencv-python
-pymupdf
-pillow
-numpy
-google-genai
-torch
-torchvision
