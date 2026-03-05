@@ -1,6 +1,0 @@
-streamlit
-easyocr
-pillow
-numpy
-requests
-pymupdf
