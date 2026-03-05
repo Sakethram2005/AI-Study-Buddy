@@ -8,7 +8,7 @@ import fitz
 from google import genai
 
 
-API_KEY = "AIzaSyDCjRMnDVOxbhGMlbolFFo6mY17GflByy4"
+API_KEY = st.secrets["GEMINI_API_KEY"]
 
 client = genai.Client(api_key=API_KEY)
 
@@ -146,5 +146,6 @@ if uploaded_file is not None:
             )
 
         st.success("Done! Here is your result")
+
 
         st.write(response.text)
