@@ -1,9 +1,7 @@
 streamlit
-easyocr
+pytesseract
 opencv-python-headless
 pymupdf
 pillow
 numpy
 google-genai
-torch
-torchvision
